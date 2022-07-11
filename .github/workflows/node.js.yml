@@ -28,7 +28,7 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm run export
-      - run: copy con ./out/.nojekyll
+      - run: notepad ./out/.nojekyll
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
