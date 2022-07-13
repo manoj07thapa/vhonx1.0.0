@@ -12,7 +12,7 @@ function Team() {
           href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`}
         />
       </Head>
-      <h1>Home Page</h1>
+      <h1>team Page</h1>
     </Fragment>
   );
 }

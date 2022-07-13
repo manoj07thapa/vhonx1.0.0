@@ -5,7 +5,7 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Link from "next/link";
 
 const navigation = [
-  { name: "Home", href: "/", current: true },
+  { name: "Home", href: "/", current: false },
   { name: "Team", href: "/team", current: false },
   { name: "AboutUs", href: "/about", current: false },
   { name: "Contact", href: "/contact", current: false },
@@ -17,7 +17,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-gray-700">
+    <Disclosure as="nav" className="bg-blue-50 ">
       {({ open }) => (
         <>
           <div className="max-w-5xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -46,8 +46,8 @@ export default function Navbar() {
                         <a
                           className={classNames(
                             item.current
-                              ? "bg-gray-900 text-white"
-                              : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                              ? "bg-gray-900 text-gray-700"
+                              : "text-gray-700 hover:bg-gray-700 hover:text-white",
                             "px-3 py-2 rounded-md text-sm font-medium"
                           )}
                           aria-current={item.current ? "page" : undefined}
