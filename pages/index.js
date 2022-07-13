@@ -1,9 +1,5 @@
 import Head from "next/head";
 import { Fragment } from "react";
-import Image from "next/image";
-import { Transition } from "@headlessui/react";
-import "animate.css/animate.min.css";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 
 export default function Home() {
   return (
