@@ -13,7 +13,7 @@ export default function Home() {
         />
       </Head>
       <div className="h-4/6">
-        <div className="relative ">
+        {/* <div className="relative ">
           <img
             src="/vhonx1.0.0/topography.svg"
             className=" w-full  object-cover aspect-auto bg-gradient-to-r from-slate-900 to-slate-400"
@@ -21,7 +21,7 @@ export default function Home() {
           <div className="absolute top-0 left-0 ">
             <h1 className="text-red-900 text-3xl font-bold">this is vhonx</h1>
           </div>
-        </div>
+        </div> */}
 
         <h1 className="bg-gray-700 text-white px-4 py-2 mt-7 w-64 h-72 flex justify-center items-center">
           Lorem Ipsum is simply dummy text of the printing and typesetting
