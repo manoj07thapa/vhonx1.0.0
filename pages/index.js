@@ -39,9 +39,6 @@ export default function Home() {
           including versions of Lorem Ipsum.
         </h1>
       </div>
-      <AnimationOnScroll animateIn="animate__fadeInLeftBig">
-        <h5 className="text-3xl font-bold text-black">Look me too.</h5>
-      </AnimationOnScroll>
     </Fragment>
   );
 }
