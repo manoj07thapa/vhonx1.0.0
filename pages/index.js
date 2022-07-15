@@ -1,5 +1,10 @@
 import Head from "next/head";
 import { Fragment } from "react";
+import Footer from "../components/footer/Footer";
+import Hero from "../components/home/Hero";
+import ReactCourse from "../components/home/ReactCourse";
+import Section3 from "../components/home/Section3";
+import Section4 from "../components/home/Section4";
 
 export default function Home() {
   return (
@@ -12,28 +17,14 @@ export default function Home() {
           href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`}
         />
       </Head>
-      <div className="h-4/6">
-        {/* <div className="relative ">
-          <img
-            src="/vhonx1.0.0/topography.svg"
-            className=" w-full  object-cover aspect-auto bg-gradient-to-r from-slate-900 to-slate-400"
-          />
-          <div className="absolute top-0 left-0 ">
-            <h1 className="text-red-900 text-3xl font-bold">this is vhonx</h1>
-          </div>
-        </div> */}
-
-        <h1 className="bg-gray-700 text-white px-4 py-2 mt-7 w-64 h-72 flex justify-center items-center">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </h1>
+      <div className="bg-[url('/graph-paper.svg')] min-h-screen w-full bg-cover object-cover">
+        <div className="space-y-16 lg:space-y-32 px-7 max-w-3xl lg:max-w-5xl mx-auto ">
+          <Hero />
+          <ReactCourse />
+          <Section3 />
+          <Section4 />
+        </div>
+        <Footer />
       </div>
     </Fragment>
   );

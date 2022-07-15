@@ -6,8 +6,8 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  basePath: "/vhonx1.0.0",
-  assetPrefix: "/vhonx1.0.0",
+  // basePath: "/vhonx1.0.0",
+  // assetPrefix: "/vhonx1.0.0",
 };
 
 module.exports = nextConfig;

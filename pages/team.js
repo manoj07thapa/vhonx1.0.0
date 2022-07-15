@@ -1,5 +1,8 @@
 import Head from "next/head";
 import { Fragment } from "react";
+import TeamHero from "../components/team/TeamHero";
+import TeamProfile from "../components/team/TeamProfile";
+import Footer from "../components/footer/Footer";
 
 function Team() {
   return (
@@ -12,7 +15,16 @@ function Team() {
           href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`}
         />
       </Head>
-      <h1>team Page</h1>
+
+      <div className="pb-32 px-7 max-w-3xl lg:max-w-5xl mx-auto ">
+        <TeamHero />
+      </div>
+      <div className="bg-white px-4 py-4 min-h-screen  ">
+        <div className=" px-7 ">
+          <TeamProfile />
+        </div>
+      </div>
+      <Footer />
     </Fragment>
   );
 }
