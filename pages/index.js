@@ -17,7 +17,7 @@ export default function Home() {
           href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`}
         />
       </Head>
-      <div className="bg-[url('/graph-paper.svg')] min-h-screen w-full bg-cover object-cover">
+      <div className="bg-[url('/vhonx1.0.0/graph-paper.svg')] min-h-screen w-full bg-cover object-cover">
         <div className="space-y-16 lg:space-y-32 px-7 max-w-3xl lg:max-w-5xl mx-auto ">
           <Hero />
           <ReactCourse />

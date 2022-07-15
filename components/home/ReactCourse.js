@@ -25,7 +25,7 @@ function ReactCourse() {
           </div>
         </div>
         <img
-          src="/group.jpg"
+          src="/vhonx1.0.0/group.jpg"
           alt="react course image"
           className="rounded-sm object-cover lg:w-[500px] "
         />
