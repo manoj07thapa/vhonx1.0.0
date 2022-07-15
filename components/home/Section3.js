@@ -19,7 +19,7 @@ function Section3() {
       </div>
       <div className="mt-7 pt-4 px-12 flex space-x-5 items-center">
         <img
-          src="/manojpic.jpg"
+          src="/vhonx1.0.0/manojpic.jpg"
           alt="founder pic"
           className="h-12 w-12 rounded-full shadow object-cover "
         />
