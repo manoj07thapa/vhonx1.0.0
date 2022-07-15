@@ -10,5 +10,5 @@ module.exports = {
   fontFamily: {
     body: ["Roboto"],
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
